@@ -1,0 +1,63 @@
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: violet
+}
+.main{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    width: 22%;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.user{
+    background: rgb(237, 40, 164);
+    color: white;
+    margin-left: auto;
+    text-align: right;
+
+}
+.bot{
+    background: white;
+    color: rgb(237, 40, 164);
+    margin-right: auto;
+    text-align: left;
+}
+#chatBox{
+    height: 200px;
+    width: 300px;
+    background: #fff;
+    box-shadow: 5px 5px 2px black;
+    width: 80%;
+    margin: 20px;
+    border-radius: 10px;
+    height: 100px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#title{
+    color: yellow;
+}
+#text{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px;
+    
+}
+.message{
+    padding: 10px;
+    width: 75%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
